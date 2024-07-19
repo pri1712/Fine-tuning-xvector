@@ -6,7 +6,7 @@ Recipe for finetuning xvectors
 
 **CURRENT RESULTS**:
 
-The results obtained are as expected as the current PLDA model is not tuned for the newly tuned embedding extractor, thus it leads to a DER Of 65 on DEV data without any resegmentation.
+The results obtained are as expected as the current PLDA model is not tuned for the newly tuned embedding extractor, thus it leads to a DER of **65 on DEV data without any resegmentation**.
 
 **FUTURE WORK:**
 
