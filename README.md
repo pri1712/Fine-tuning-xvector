@@ -1,6 +1,7 @@
 # Fine-tuning-xvector
-Recipe for finetuning xvectors
-1.Run run_xvector script before running the full pipeline. This overwrites the initial final.raw model with our fine-tuned model.
+Recipe for fine-tuning xvectors
+
+1.Run the run_xvector script before running the full pipeline. This overwrites the initial final.raw model with our fine-tuned model.Set the hyper-parameters depending the amount of data you have to prevent overfitting. I have specified the parameters used by me in the script for 100 hours of data.**The model did slightly overfit**  (as I ran around 100 iterations) , it could be done better (around 40-50 iterations should suffice if you are using the same amount of data).
 
 2.Run the full pipeline and in diarize_fbank in 2nd and 3rd stage , it uses the final.raw to extract the x-vectors.
 
